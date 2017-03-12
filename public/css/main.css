@@ -1,6 +1,8 @@
+/* Base styles */
+
 html, body
 {
-    background-color: #fff;
+    background-image: url('../img/dark_embroidery.png');
     color: #636b6f;
     font-family: 'arial';
     font-weight: 100;
@@ -65,4 +67,15 @@ html, body
 .jenn-list
 {
     list-style: none;
+}
+
+.skill-img
+{
+    width: 200px;
+    padding: 10px;
+}
+
+.container
+{
+    background: #fff;
 }

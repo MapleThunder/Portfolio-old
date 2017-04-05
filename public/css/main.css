@@ -2,7 +2,6 @@
 
 html, body
 {
-    background-image: url('../img/dark_embroidery.png');
     color: #636b6f;
     font-family: 'arial';
     font-weight: 100;
@@ -78,4 +77,24 @@ html, body
 .container
 {
     background: #fff;
+}
+
+.pdfobject-container
+{
+    height: 1000px;
+}
+
+.pdfobject-container
+{
+    border: 1px solid #666;
+}
+
+/*
+    Work Example page stylings
+ */
+
+.portfolio-img
+{
+    width: 200px;
+    margin: 10px;
 }

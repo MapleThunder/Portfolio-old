@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/portfolio', 'PagesController@Portfolio');
+Route::get('/showcase', 'PagesController@Showcase');
 Route::get('/skills', 'PagesController@Skills');
 Route::get('journey', 'PagesController@Journey');
+Route::get('resume', 'PagesController@Resume');

@@ -38,15 +38,17 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('portfolio') }}">Portfolio</a></li>
+                    <li><a href="{{ url('showcase') }}">Work Examples</a></li>
                     <li><a href="{{ url('skills') }}">Skills</a></li>
                     <li><a href="{{ url('journey') }}">My Journey</a></li>
+                    <li><a href="{{ url('resume') }}">Resumé</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- Social media links Links -->
-                    <!--<a href="#"><i class="fa fa-btn fa-github"></i></a>-->
+                    <!-- Social media links -->
+                    <!--<li><a href="https://github.com/MapleThunder"><i class="fa fa-github"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
                 </ul>
             </div>
         </div>

@@ -8,14 +8,14 @@ use App\Http\Requests;
 
 class PagesController extends Controller
 {
-    public function Showcase()
+    public function DataMig()
     {
-        return view('pages.showcase.index');
+        return view('pages.showcase.datamigration');
     }
 
-    public function Skills()
+    public function FoodFight()
     {
-        return view('pages.skills');
+        return view('pages.showcase.foodfight');
     }
 
     public function Journey()
@@ -27,4 +27,25 @@ class PagesController extends Controller
     {
         return view('pages.resume');
     }
+
+    public function Showcase()
+    {
+        return view('pages.showcase.index');
+    }
+
+    public function Skills()
+    {
+        return view('pages.skills');
+    }
+
+    public function StackTheBoxes()
+    {
+        return view('pages.showcase.stacktheboxes');
+    }
+
+    public function TunnelBird()
+    {
+        return view('pages.showcase.tunnelbird');
+    }
+
 }

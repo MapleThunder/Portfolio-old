@@ -20,6 +20,11 @@ html, body
     justify-content: center;
 }
 
+.container
+{
+    background: #fff;
+}
+
 .position-ref
 {
     position: relative;
@@ -63,10 +68,18 @@ html, body
     margin-right: 6px;
 }
 
+/*=======================
+------  About
+ ========================*/
+
 .jenn-list
 {
     list-style: none;
 }
+
+/*=======================
+------  Skills
+ ========================*/
 
 .skill-img
 {
@@ -74,10 +87,10 @@ html, body
     padding: 10px;
 }
 
-.container
-{
-    background: #fff;
-}
+
+/*=======================
+------  Resumé
+ ========================*/
 
 .pdfobject-container
 {
@@ -89,12 +102,16 @@ html, body
     border: 1px solid #666;
 }
 
-/*
-    Work Example page stylings
- */
+/*==============================================
+---------   Work Examples
+ ===============================================*/
 
 .portfolio-img
 {
     width: 200px;
     margin: 10px;
+}
+.portfolio-desc
+{
+
 }

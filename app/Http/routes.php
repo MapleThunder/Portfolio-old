@@ -19,3 +19,7 @@ Route::get('/showcase', 'PagesController@Showcase');
 Route::get('/skills', 'PagesController@Skills');
 Route::get('journey', 'PagesController@Journey');
 Route::get('resume', 'PagesController@Resume');
+Route::get('showcase/dataMigration', 'PagesController@DataMig');
+Route::get('showcase/foodFight', 'PagesController@FoodFight');
+Route::get('showcase/stack', 'PagesController@StackTheBoxes');
+Route::get('showcase/tunnelBird', 'PagesController@TunnelBird');

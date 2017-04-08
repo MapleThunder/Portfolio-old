@@ -13,20 +13,21 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
 
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-dark navbar-static-top">
         <div class="container">
             <div class="navbar-header">
 
                 <!-- Collapsed Hamburger -->
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"><a href="{{ url('showcase') }}">Showcase</a></span>
+                    <span class="icon-bar"><a href="{{ url('skills') }}">Skills</a></span>
+                    <span class="icon-bar"><a href="{{ url('journey') }}">My Journey</a></span>
+                    <span class="icon-bar"><a href="{{ url('resume') }}">Resumé</a></span>
                 </button>
 
                 <!-- Branding Image -->
@@ -38,10 +39,10 @@
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('showcase') }}">Work Examples</a></li>
-                    <li><a href="{{ url('skills') }}">Skills</a></li>
-                    <li><a href="{{ url('journey') }}">My Journey</a></li>
-                    <li><a href="{{ url('resume') }}">Resumé</a></li>
+                    <li class="nav-button"><a href="{{ url('showcase') }}">Work Examples</a></li>
+                    <li class="nav-button"><a href="{{ url('skills') }}">Skills</a></li>
+                    <li class="nav-button"><a href="{{ url('journey') }}">My Journey</a></li>
+                    <li class="nav-button"><a href="{{ url('resume') }}">Resumé</a></li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -53,7 +54,7 @@
             </div>
         </div>
     </nav>
-    @yield('content');
+    @yield('content')
 
 </body>
 </html>

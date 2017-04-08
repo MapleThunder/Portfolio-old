@@ -8,6 +8,7 @@ use App\Http\Requests;
 
 class PagesController extends Controller
 {
+
     public function DataMig()
     {
         return view('pages.showcase.datamigration');
@@ -21,6 +22,11 @@ class PagesController extends Controller
     public function Journey()
     {
         return view('pages.journey');
+    }
+
+    public function NsccApp()
+    {
+        return view('pages.showcase.nsccapp');
     }
 
     public function Resume()

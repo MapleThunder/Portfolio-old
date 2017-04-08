@@ -3,15 +3,15 @@
 @section('content')
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h2>Data Migration</h2>
-            <p>
+            <h2 class="text-center desc-title">Data Migration</h2>
+            <p class="text-center">
                 This was my final project for my Database Development 1100 class. In this project
                 I was given a database with data already in it, along with requests for four upgrades.
                 I then had to create the scripts to make the updated database and then test the data integrity.
                 Alongside my work I have included a copy of the assignment, script for creating and populating
                 the original database, and the original ERD.
             </p>
-            <p>
+            <p class="text-center">
                 A copy of the source code is available on my <a href="https://github.com/MapleThunder/DataMigration">Github</a>.
             </p>
         </div>
@@ -26,9 +26,9 @@
             </figure>
         </div>
         <div class="col-md-5">
-            <h3>Analysis and ERD creation</h3>
+            <h3 class="desc-title">Analysis and ERD creation</h3>
             <p>
-                To start the project I had to <strong>analyse</strong> the existing system and determine how it worked. After I felt like
+                To start the project I had to analyse the existing system and determine how it worked. After I felt like
                 I had a decent understanding of the database, I started from the original ERD and added or edited
                 tables as needed to implement the desired improvements.
             </p>
@@ -43,7 +43,7 @@
     <br>
     <div class="row">
         <div class="col-md-5 col-md-offset-1">
-            <h3>DDL Script</h3>
+            <h3 class="desc-title">DDL Script</h3>
             <p>
                 After drawing out the ERD I could get started on writing the script that would
                 construct the updated database. For the purpose of this assignment I assumed
@@ -54,9 +54,9 @@
                 Pictured to the right is an excerpt from the DDL script for the updated database.
                 I chose the Products and Product_Location tables because they show examples of
                 some constraints I had to use in the upgrading of the database. The constraint at the
-                bottom of the Products table <strong>checks</strong> to guarantee that only a 1 or 0
+                bottom of the Products table checks to guarantee that only a 1 or 0
                 are entered into the discontinued field, effectively creating a boolean. At the end of the
-                Product_Location table I needed to include a constraint that <strong>combined</strong>
+                Product_Location table I needed to include a constraint that combined
                 the unique pairing of the two foreign keys into a primary key for the entry.
             </p>
         </div>
@@ -77,7 +77,7 @@
             </figure>
         </div>
         <div class="col-md-5">
-            <h3>DML Script</h3>
+            <h3 class="desc-title">DML Script</h3>
             <p>
                 Once all of the tables were created successfully it was time to migrate the client's
                 data from the original database into the new structure. This was a straight forward
@@ -96,11 +96,11 @@
     <br>
     <div class="row">
         <div class="col-md-5 col-md-offset-1">
-            <h3>Test Script</h3>
+            <h3 class="desc-title">Test Script</h3>
             <p>
                 The test script was created to help verify the integrity of the data and updated tables.
                 There are various statements that are commented in the code as to their use. Pictured on
-                the right is a short snippet of code <strong>comparing the count</strong> of entries in the 'Categories'
+                the right is a short snippet of code comparing the count of entries in the 'Categories'
                 table in both databases, displaying the results in labelled columns.
             </p>
         </div>

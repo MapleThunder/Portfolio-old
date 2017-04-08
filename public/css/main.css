@@ -126,6 +126,12 @@ a:focus
     border: 1px solid #666;
 }
 
+.portfolio-desc p
+{
+    font-size: large;
+    margin-top: 15px;
+}
+
 /*==============================================
 ---------   Work Examples
  ===============================================*/
@@ -140,6 +146,11 @@ a:focus
 {
     font-weight: 700;
     color: #e68a00;
+}
+
+.desc-title
+{
+    color: #cc6600;
 }
 
 .infoVideo
@@ -160,4 +171,18 @@ a:focus
 {
     margin: auto;
     text-align: center;
+}
+
+
+
+
+/*===========================
+----------  Utility
+=============================*/
+
+.FIXME
+{
+    color: black;
+    background-color: red;
+    font-weight: 700;
 }

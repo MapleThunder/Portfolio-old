@@ -5,6 +5,18 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="panel panel-default">
+                    <div class="panel-heading">Programming</div>
+                    <div class="panel-body skill-panel">
+                        <img class="skill-img" src="img/skills/csharp.png" />
+                        <img class="skill-img" src="img/skills/python.png" />
+                        <img class="skill-img" src="img/skills/java.png" />
+                        <img class="skill-img" src="img/skills/ms-net.png" />
+                    </div>
+                </div>
+            </div> <!-- End Programming -->
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
                     <div class="panel-heading">Software</div>
                     <div class="panel-body skill-panel">
                         <img class="skill-img" src="img/skills/vs.jpg" />
@@ -18,19 +30,7 @@
                         <img class="skill-img" src="img/skills/android-studio.jpg" />
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">Programming</div>
-                    <div class="panel-body skill-panel">
-                        <img class="skill-img" src="img/skills/csharp.png" />
-                        <img class="skill-img" src="img/skills/python.png" />
-                        <img class="skill-img" src="img/skills/java.png" />
-                        <img class="skill-img" src="img/skills/ms-net.png" />
-                    </div>
-                </div>
-            </div>
+            </div> <!-- End Software -->
 
             <div class="col-md-4">
                 <div class="panel panel-default">
@@ -43,7 +43,7 @@
                         <img class="skill-img" src="img/skills/web-langs.png" />
                     </div>
                 </div>
-            </div>
+            </div> <!-- End Web -->
         </div>
     </div>
 @endsection

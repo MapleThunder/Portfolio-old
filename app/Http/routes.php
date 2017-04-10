@@ -25,3 +25,4 @@ Route::get('showcase/foodFight', 'PagesController@FoodFight');
 Route::get('showcase/stack', 'PagesController@StackTheBoxes');
 Route::get('showcase/tunnelBird', 'PagesController@TunnelBird');
 Route::get('showcase/nsccapp', 'PagesController@NsccApp');
+Route::get('showcase/nsccerd', 'PagesController@Erd');

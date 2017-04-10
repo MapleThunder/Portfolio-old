@@ -14,6 +14,11 @@ class PagesController extends Controller
         return view('pages.showcase.datamigration');
     }
 
+    public function Erd()
+    {
+        return view('pages.showcase.erd');
+    }
+
     public function FoodFight()
     {
         return view('pages.showcase.foodfight');

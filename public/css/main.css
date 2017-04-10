@@ -61,11 +61,6 @@ a:focus
     color: #176e61;
 }
 
-.nav-button:hover
-{
-
-}
-
 .m-b-md
 {
     margin-bottom: 30px;
@@ -173,7 +168,10 @@ a:focus
     text-align: center;
 }
 
-
+.nscc-app-img
+{
+    width: 100%;
+}
 
 
 /*===========================

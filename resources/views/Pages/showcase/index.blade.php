@@ -41,10 +41,10 @@
                                 This project dealt with CRUD functionality through a Windows Form application front end
                                 that talked to an Azure database in the cloud. For this project I worked with:
                                 <ul>
-                                    <li>Odata for Visual Studio</li>
+                                    <li>Entity Framework</li>
+                                    <li>Azure & Cloud Services</li>
                                     <li>Odata Web Routing</li>
                                     <li>Odata Template Connection</li>
-                                    <li>Azure Web Services</li>
                                 </ul>
                             </p>
                         </div>

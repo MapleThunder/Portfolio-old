@@ -31,7 +31,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <span class="portfolio-title">
-                            <a href="showcase/nsccapp">NSCC Application Form</a>
+                            <a href="showcase/nsccapp">NSCC Mock Application Form</a>
                         </span>
                         <span class="pull-right">C#, Azure, Entity</span>
                     </div>
@@ -49,7 +49,7 @@
                             </p>
                         </div>
                         <div class="col-md-3 col-md-offset-1">
-                            <img src="/img/portfolio/StackTheBoxes/StackTheBoxesIcon.png" class="portfolio-img" />
+                            <img src="/img/portfolio/NsccApplication/nscclogo.png" class="portfolio-img" />
                         </div>
                     </div>
                 </div>

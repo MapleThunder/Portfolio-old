@@ -29,7 +29,7 @@
         <div class="col-md-5 col-md-offset-1" style="padding-top: 50px">
             <figure>
                 <img src="/img/portfolio/NsccApplication/NsccDbContext.png" />
-                <figcaption>NsccDbContext</figcaption>
+                <figcaption class="text-center">NsccDbContext</figcaption>
             </figure>
         </div>
         <div class="col-md-5">
@@ -60,7 +60,7 @@
             <div class="row">
                 <figure>
                     <img src="/img/portfolio/NsccApplication/CampusEntity.png" />
-                    <figcaption>Campus Table Class</figcaption>
+                    <figcaption class="text-center">Campus Table Class</figcaption>
                 </figure>
             </div>
         </div>
@@ -102,7 +102,7 @@
             <figure>
                 <img    src="/img/portfolio/NsccApplication/ProvinceStatesControllerPatch.png"
                         class="nscc-app-img" />
-                <figcaption>Patch Function in the ProvinceStatesController</figcaption>
+                <figcaption class="text-center">Patch Function in the ProvinceStatesController</figcaption>
             </figure>
         </div>
     </div> <!-- End assignment 2 -->
@@ -143,14 +143,14 @@
             <figure>
                 <img    src="/img/portfolio/NsccApplication/NsccFormTab1.png"
                         class="nscc-app-img" />
-                <figcaption>New Application Tab of the Form</figcaption>
+                <figcaption class="text-center">New Application Tab of the Form</figcaption>
             </figure>
         </div>
         <div class="col-md-5">
             <figure>
                 <img    src="/img/portfolio/NsccApplication/NsccFormTab2.png"
                         class="nscc-app-img" />
-                <figcaption>Applicants Tab of the Form</figcaption>
+                <figcaption class="text-center">Applicants Tab of the Form</figcaption>
             </figure>
         </div>
     </div> <!-- End assignment 3 -->

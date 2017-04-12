@@ -2,17 +2,20 @@
 
 @section('content')
 
+    <div class="row">
+        <img src="/img/duncans-cove.jpg" class="welcome-img">
+    </div>
     <div class="container">
-        <div class="row">
+        <div class="row" style="padding-top: 20px">
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel panel-default">
-                    <div class="panel-heading">WELCOME</div>
+                    <div class="panel-heading">Welcome</div>
 
                     <div class="panel-body">
-                        You should never complain, complaining is a weak emotion, you got life, we breathing, we blessed.
-                        In life there will be road blocks but we will over come it. They never said winning was easy.
-                        Some people can’t handle success, I can.
-
+                        This is my final portfolio from my time at Nova Scotia Community College taking the Database
+                        Analytics Developer concentration. You can use the navigation bar at the top to see some of my
+                        work examples, a show of skills I have in different programming languages and platforms, a few
+                        short paragraphs about my personal professional journey, and a copy of my resumé.
                     </div>
                 </div>
             </div>

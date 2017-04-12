@@ -11,6 +11,10 @@
                 use that to create something fun. I decided to create a simple helicopter style game where you are a bird
                 flying through a tunnel trying to avoid flaming skulls.
             </p>
+            <p class="text-center">
+                A copy of the source code is available on my
+                <a href="https://github.com/NSCC-Winter2017-PROG2200-700/Bentley-Niko-w0286227/tree/master/NikoBentley_PROG2200_Game">Github</a>.
+            </p>
         </div>
     </div>
 
@@ -20,7 +24,7 @@
             <p>
                 The concept behind the game is simple, I have objects representing the player, the enemies, and the wall
                 pieces. To give the player the illusion of moving, I gave everything else a movement in the opposite
-                direction.
+                direction. If the player hits the ceiling, floor, or any enemies result in game over.
             </p>
             <p>
                 The controls for the game are very simple:
@@ -33,8 +37,8 @@
         </div>
         <div class="col-md-5">
             <figure>
-                <img src="#" class="nscc-app-img" />
-                <figcaption></figcaption>
+                <img src="/img/portfolio/TunnelBird/TunnelBirdIcon.png" style="width: 60%" />
+                <figcaption class="text-center"></figcaption>
             </figure>
         </div>
     </div>
@@ -43,8 +47,8 @@
     <div class="row" style="padding-top: 50px">
         <div class="col-md-5 col-md-offset-1">
             <figure>
-                <img src="#" class="nscc-app-img" />
-                <figcaption>Wall Object Constructor</figcaption>
+                <img src="/img/portfolio/TunnelBird/WallGeneration.png" class="nscc-app-img" />
+                <figcaption class="text-center">Bottom Wall Generation Block</figcaption>
             </figure>
         </div>
         <div class="col-md-5">
@@ -73,16 +77,19 @@
             <p>
                 To make the game a little more engaging and nice looking, I added in sprite animations for the player and
                 enemy objects. The player's animation was only a second image that appears when the user presses the space bar
-                to go up. The enemy animations were a bit more in depth, for this I had 3 separate images that I rotated through
-                based on a pseudo-timer. I accomplished this by adding an iterator to the Enemy object that would increase
-                every time the Draw method is called and use the value of that iterator to determine which image to use
-                for the sprite.
+                to go up, this is all that is needed for the illusion of a bird flapping it's wings. The enemy animations
+                were a bit more in depth, for this I had 3 separate images that I rotated through based on a pseudo-timer.
+                I accomplished this by adding an iterator to the Enemy object that would increase every time the Draw method
+                is called and use the value of that iterator to determine which image to use for the sprite.
+            </p>
+            <p>
+
             </p>
         </div>
         <div class="col-md-5">
             <figure>
-                <img src="/img/portfolio/TunnelBird/DrawEnemy.png" style="width: 80%" />
-                <figcaption>Enemy Object Draw Function</figcaption>
+                <img src="/img/portfolio/TunnelBird/DrawEnemy.png" style="width: 70%" />
+                <figcaption class="text-center">Enemy Object Draw Function</figcaption>
             </figure>
         </div>
     </div>

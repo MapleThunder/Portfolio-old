@@ -5,6 +5,39 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel panel-default">
+                    <div class="panel-heading"><h4>Learning Evolution</h4></div>
+                    <div class="panel-body">
+                        <p>
+                            When I first decided to apply to the IT program offered at Nova Scotia Community College I
+                            knew nothing more about programming or computers than I wanted to work with them as a career.
+                            I had dabbled in programming here and there over the years, but could never fully grasp or
+                            internalize what I learned. In the first semester I found the classes general enough that I
+                            wasn't overwhelmed with any of the subjects and was able to decide what I really enjoyed working
+                            with in the IT industry. I was able to figure out that I had a passion for programming software,
+                            so I chose to do the application development stream. In my second semester we went more in
+                            depth with programming concepts, and also were introduced to SQL and dealing with databases.
+                        </p>
+                        <p>
+                            The more in depth into programming we got, the more the instructors introduced the concept of
+                            how to look for specific information regarding any issues we may be having with the code. This
+                            was probably the single most helpful skill I learned while taking this program. The instructors
+                            were very focused on teaching us how to use and read the debugger for whatever IDE we may be
+                            using. This was a big change for me personally, as I was used to debugging by exclusively
+                            writing console messages and waiting to see if I saw it before something crashed. In pretty
+                            much every case that it is available, the debugger provides <strong>many</strong> helpful
+                            functions outside of reporting the result of an error or crash.
+                        </p>
+                        <p>
+                            In terms of finding a job, I would say that the best thing Nova Scotia Community College has
+                            done for me, aside from the hard skills and hands on experience with specific languages and
+                            platforms, would be the extra confidence in my abilities. I still feel like I don't know a lot
+                            about programming, but I now feel like I know enough to start and like I have the ability to
+                            research and self-teach myself whatever I need to know.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
                     <div class="panel-heading"><h4>Where am I now ?</h4></div>
                     <div class="panel-body">
                         <p>
